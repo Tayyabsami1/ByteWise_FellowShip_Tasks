@@ -45,12 +45,12 @@ header nav .icon {
   height: 18px;
   width: 18px;
 }
-@media screen and (max-width: 811px) {
+@media screen and (max-width: 1011px) {
   header nav .left {
     margin-right: 350px;
   }
 }
-@media screen and (max-width: 311px) {
+@media screen and (max-width: 611px) {
   header nav {
     display: flex;
     justify-content: flex-start;
@@ -120,7 +120,7 @@ main #About .bottom .aside ul li {
   font-weight: 500;
   font-size: 18px;
 }
-@media screen and (max-width: 811px) {
+@media screen and (max-width: 1011px) {
   main #About .top {
     flex-direction: column;
     align-items: flex-start;
@@ -134,7 +134,7 @@ main #About .bottom .aside ul li {
     width: 50%;
   }
 }
-@media screen and (max-width: 311px) {
+@media screen and (max-width: 611px) {
   main #About {
     margin-right: 0;
   }
@@ -187,7 +187,7 @@ main #Help .cards .card .desc {
   font-weight: 400;
   width: 70%;
 }
-@media screen and (max-width: 811px) {
+@media screen and (max-width: 1011px) {
   main #Help .cards {
     display: flex;
     flex-direction: column;
@@ -266,7 +266,7 @@ main #work .bottom::after {
   transform: translateX(-6%) translateY(34%) rotate(20deg);
   z-index: 1;
 }
-@media screen and (max-width: 811px) {
+@media screen and (max-width: 1011px) {
   main #work {
     margin-top: 50px;
     width: 90%;
@@ -278,7 +278,7 @@ main #work .bottom::after {
     align-items: flex-start;
   }
 }
-@media screen and (max-width: 311px) {
+@media screen and (max-width: 611px) {
   main #work {
     margin-top: 50px;
     width: 90%;
@@ -366,13 +366,13 @@ main #selection .right .item .bottom .desc {
   font-weight: 400;
   width: 85%;
 }
-@media screen and (max-width: 811px) {
+@media screen and (max-width: 1011px) {
   main #selection {
     display: flex;
     flex-direction: column;
   }
 }
-@media screen and (max-width: 311px) {
+@media screen and (max-width: 611px) {
   main #selection .left h1 {
     font-size: 42px;
     width: 100%;
@@ -411,7 +411,7 @@ main #cta .right {
   align-items: flex-end;
   margin-bottom: 85px;
 }
-@media screen and (max-width: 811px) {
+@media screen and (max-width: 1011px) {
   main #cta {
     flex-direction: column;
     justify-content: flex-start;
@@ -425,7 +425,7 @@ main #cta .right {
     width: 100%;
   }
 }
-@media screen and (max-width: 311px) {
+@media screen and (max-width: 611px) {
   main #cta .left h1 {
     font-size: 44px;
   }
