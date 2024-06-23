@@ -12,7 +12,7 @@ Submitted code of the Table with dummy data.
 Submitted code of the Form with screenshot of the UI
 
 ## Task 4
-Task 4 was the same as Task 3
+Submitted code of Task 4
 
 ## Project 
 Submitted Html Code along with Sass file and Css file and deployed on Vercel.
