@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(252, 252, 252, 0.858);
+    font-family: "Roboto", sans-serif;
+
+}
+
+.Main {
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    position: relative;
+
+}
+
+nav .left {
+    display: inline-block;
+    position: relative;
+}
+
+nav .left img {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    margin-left: 5px;
+}
+
+nav .right {
+    display: inline-block;
+    position: fixed;
+    left: 400px;
+    margin-top: 50px;
+    top: 30px;
+}
+
+nav .right ul {
+    list-style: none;
+    display: inline-block;
+    border-bottom: 2px solid black;
+    padding: 0 30px;
+}
+
+nav .right ul li {
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 20px;
+    font-size: large;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+
+nav .right ul .b-l {
+    padding-right: 40px;
+    border-right: 2px solid black;
+}
+
+main {
+    position: relative;
+    display: inline-block;
+}
+
+
+
+main .left {
+    position: absolute;
+    left: 400px;
+    top: -50px;
+}
+
+main .left h3 {
+    text-transform: uppercase;
+    font-size: 70px;
+    line-height: 55px;
+}
+
+main .left h2 {
+    text-transform: uppercase;
+    line-height: 30px;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+main .left p {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+
+}
+
+main .right {
+    position: absolute;
+    left: 700px;
+    top: -200px;
+}
+
+main .right img {
+    height: 700px;
+    width: 700px;
+    object-fit: contain;
+}
+
+footer{
+    position: relative;
+}
+
+footer .left{
+    position: fixed;
+    bottom: 0px;
+}
+footer .middle{
+    position: fixed;
+    bottom: 0px;
+    left: 1000px;
+}
+
+footer .right{
+    position: fixed;
+    bottom: 0px;
+    left: 1300px;
+}

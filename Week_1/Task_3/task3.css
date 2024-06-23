@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('https://images.pexels.com/photos/26521552/pexels-photo-26521552/free-photo-of-a-canal-in-a-city-with-trees-and-people-walking.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+main{
+    backdrop-filter: blur(20px); 
+    background-color: transparent; 
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    align-items: center;
+    margin: auto;
+    height: 80vh;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+main .heading{
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    margin: 20px;
+}
+
+main .form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: 100%;
+}
+
+main .form .gender{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-between;
+}

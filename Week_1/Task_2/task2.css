@@ -1,0 +1,40 @@
+main .mainHeading{
+    text-align: center;
+}
+
+main .left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+main .left span input{
+    width: 50px;
+}
+
+main .right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+main .right input{
+    margin-left: 10px;
+}
+
+
+footer .left span{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+
+footer .right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
