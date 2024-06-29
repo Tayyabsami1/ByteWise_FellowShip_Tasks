@@ -16,7 +16,12 @@ Submitted code of Task 4
 
 ## Project 
 Submitted Html Code along with Sass file and Css file and deployed on Vercel.
-- [Project Link ](https://portfoliodesign1.vercel.app/)
+- [Minimalistic Portfolio Design ](https://portfoliodesign1.vercel.app/)
+
+# Week 2 
+## Project
+Submitted Html , Css and JS code and deployed on Vercel 
+- [TODO List App ](https://sparking-todo-list.vercel.app/)
 
 
 
