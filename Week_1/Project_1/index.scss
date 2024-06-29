@@ -3,6 +3,8 @@
 * {
     font-family: 'Clash Display', sans-serif;
     background-color: #EFEFEF;
+    margin: 0;
+    padding: 0;
 }
 
 .cta-btn {
@@ -79,7 +81,7 @@ header {
             }
             .icon{
                 position: absolute;
-                left: 250px;
+                left: 85vw;
                 display: flex;
                 display: block;
             }
@@ -88,7 +90,6 @@ header {
 }
 
 main {
-
     #About {
         .top {
             display: flex;
@@ -245,6 +246,8 @@ main {
                 gap: 20px;
             }
         }
+        background-color: red;
+
     }
 
     #work {
@@ -278,7 +281,7 @@ main {
         .bottom {
             display: flex;
             flex-direction: column;
-            gap: 30px;
+            gap: 50px;
 
             .b_item {
                 z-index: 2;
@@ -406,7 +409,8 @@ main {
 
     #selection {
         margin: 0 20px;
-        margin-top: 100px;
+        margin-top: 130px;
+        // width: 80%;
         display: flex;
 
         .left {
@@ -592,7 +596,7 @@ footer {
         align-items: center;
     }
 
-    @media screen and (max-width:310px) {
+    @media screen and (max-width:611px) {
 
         .left {
             p {
@@ -605,7 +609,9 @@ footer {
                 display: flex;
                 flex-wrap: wrap;
                 list-style: none;
-                gap: 35px;
+                gap: 30px;
+                width: 60%;
+                margin: auto;
 
                 li {
                     font-size: 18px;

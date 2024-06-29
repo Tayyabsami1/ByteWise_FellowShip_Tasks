@@ -1,6 +1,8 @@
 * {
   font-family: "Clash Display", sans-serif;
   background-color: #EFEFEF;
+  margin: 0;
+  padding: 0;
 }
 
 .cta-btn {
@@ -62,7 +64,7 @@ header nav .icon {
   }
   header nav .icon {
     position: absolute;
-    left: 250px;
+    left: 85vw;
     display: flex;
     display: block;
   }
@@ -162,6 +164,7 @@ main #About .bottom .aside ul li {
 main #Help {
   margin: 0 20px;
   margin-top: 100px;
+  background-color: red;
 }
 main #Help p {
   font-weight: 500;
@@ -217,7 +220,7 @@ main #work .top .right p {
 main #work .bottom {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 50px;
 }
 main #work .bottom .b_item {
   z-index: 2;
@@ -316,7 +319,7 @@ main #work .bottom::after {
 }
 main #selection {
   margin: 0 20px;
-  margin-top: 100px;
+  margin-top: 130px;
   display: flex;
 }
 main #selection .left h1 {
@@ -458,7 +461,7 @@ footer .right ul li {
     align-items: center;
   }
 }
-@media screen and (max-width: 310px) {
+@media screen and (max-width: 611px) {
   footer .left p {
     text-align: center;
   }
@@ -466,7 +469,9 @@ footer .right ul li {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    gap: 35px;
+    gap: 30px;
+    width: 60%;
+    margin: auto;
   }
   footer .right ul li {
     font-size: 18px;
