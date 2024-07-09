@@ -76,6 +76,7 @@ const DelEventAdder = (delButton) => {
 }
 
 
+
 // Utility function  to create a new todo item 
 const newTodoCreater = (TodoText, status = false) => {
     const newTodo = document.createElement('div');
