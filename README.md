@@ -1,8 +1,8 @@
 # ByteWise_FellowShip_Tasks
 ### This is a Repo to submit my Tasks here.
 
-# Month 1
-## Week 1
+# Month 1 (Basics of Html Css and JS)
+## Week 1 
 - Task 1 Submitted with code and screenshot of the UI
 - Task 2 Submitted code of the Table with dummy data.
 - Task 3 Submitted code of the Form with screenshot of the UI
@@ -18,7 +18,7 @@
 ## Week 4 
 - Learning done
 
-# Month 2
+# Month 2 (Basics of NodeJS and ExpressJs with MVC Architecture) 
 ## Week 1
 - Task 1 Connected MongoDB using Mongoose and Express and made demo Controller and Router
 - Project Made a Users CRUD API using Express, NodeJS and Nodemon and tested it using Postman 
