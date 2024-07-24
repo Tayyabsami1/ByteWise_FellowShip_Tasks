@@ -21,7 +21,10 @@
 # Month 2 (Basics of NodeJS and ExpressJs with MVC Architecture) 
 ## Week 1
 - Task 1 Connected MongoDB using Mongoose and Express and made demo Controller and Router
-- Project Made a Users CRUD API using Express, NodeJS and Nodemon and tested it using Postman 
+- Task 2 Created Custom Error and Response Classes.
+- Project Made a Users CRUD API using Express, NodeJS and Nodemon and tested it using Postman.
+## Week 2 
+- 
 
 
 
